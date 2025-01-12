@@ -1,0 +1,27 @@
+{
+  "name": "kindred_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test --project=chromium --grep @Regression"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acthilina2020/kindred_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acthilina2020/kindred_test/issues"
+  },
+  "homepage": "https://github.com/acthilina2020/kindred_test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.44.1",
+    "typescript": "^5.4.5"
+  }
+}
